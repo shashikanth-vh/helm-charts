@@ -1,8 +1,8 @@
-replicaCount: 10
+replicaCount: 1
 image:
   repository: "shashikanthvh/example-app"
   tag: "latest"
   pullPolicy: Always
 service:
   type: NodePort
-  port: 31004
+  port: 30204
